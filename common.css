@@ -1,0 +1,111 @@
+.main-section {
+	margin-right: 0px !important;
+}
+
+#grid {
+	width: 100%;
+}
+
+.card {
+	height: 105px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #72C3DC;
+	color: #fff;
+	border: none !important;
+	border-radius: 0px !important;
+}
+
+.cardNumber {
+	margin-top: 35px;
+	font-size: 40px;
+}
+
+.card-section-details {
+	padding-right: 0px !important;
+}
+
+#card_1 {
+	background-color: #6F98A8;
+}
+
+#card_2 {
+	background-color: #72C3DC;
+}
+
+#card_3 {
+	background-color: #2F454E;
+}
+
+#card_4 {
+	background-color: #72C3DC;
+}
+
+#card_5 {
+	background-color: #2F454E;
+}
+
+#card_6 {
+	background-color: #72C3DC;
+}
+
+#card_7 {
+	background-color: #BFBFBF;
+}
+
+#card_8 {
+	background-color: #6F98A8;
+}
+
+#card_9 {
+	background-color: #2F454E;
+}
+
+#shuffleAndshortBtn {
+	position: absolute;
+	right: 0px;
+	margin-top: 12px;
+	padding-left: 0px;
+}
+
+#shuffleBtn {
+	height: 30px;
+	background: #72C3DC;
+	border-radius: 6px;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+#sortBtn {
+	height: 30px;
+	background: #72C3DC;
+	border-radius: 6px;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#shuffleAndshortBtn p {
+	margin-top: 4px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	#grid {
+		position: absolute;
+		top: 20%;
+		padding-right: 0px;
+	}
+	#shuffleBtn {
+		margin-bottom: 0px;
+	}
+	#shuffleAndshortBtn {
+		padding-left: 50px;
+	}
+	#sortBtn {
+		margin-left: 6px;
+	}
+}
